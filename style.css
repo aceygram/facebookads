@@ -438,6 +438,27 @@
   .author-role { font-size: 0.82rem; color: var(--blue); font-weight: 600; margin-bottom: 16px; letter-spacing: 0.05em; }
   .author-bio { color: #999; font-weight: 300; line-height: 1.7; }
 
+  .author button {
+    background-color: inherit;
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 13px 22px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: DN Sans, sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  
+  .author button:hover {
+    background-color: var(--text);
+    color: var(--dark);
+    border: 1px solid var(--border);
+    transition: background-color 0.5s, color 0.5s, transform 0.5s;
+  }
+
+
   /* ── TESTIMONIALS ── */
   .testimonials { background: var(--darker); }
   .testi-grid {
