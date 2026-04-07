@@ -582,3 +582,21 @@
     0%, 100% { transform: rotateY(-25deg) rotateX(5deg) translateY(0px); }
     50%       { transform: rotateY(-22deg) rotateX(4deg) translateY(-14px); }
   }
+
+  .whatsapp-float img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.5s ease;
+  }
+
+    .whatsapp-float img:hover {
+    transform: scale(1.2);
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
